@@ -1,0 +1,14 @@
+This project's need comes because I want to be able to choose a website, get specific PDF files in it that are written in Hebrew, and translate them into a usable text file (as a usable database).
+To do this, I’ve created this project, which will:
+
+1. Find wanted PDFs
+2. Download wanted PDFs
+3. Extract the text within them
+4. Lastly, send the link they came from along with the text that was extracted
+
+I will not write the LLM that will translate PDF to file and will instead focus on the crawling part, for two reasons:
+1. I do not have the resources to train an LLM to a reliable level to extract text from PDFs.
+2. There are already libraries that can do this.
+The third, and not so important, reason is because I have never reused an entire library from GitHub and would like the experience of finding and choosing the correct library for my needs.
+
+my chosen PDF to Text library is:
